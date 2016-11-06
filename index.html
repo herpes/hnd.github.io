@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Honey & Darling</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!--▼▼▼トップページ▼▼▼-->
+    <div data-role="page" id="top" data-theme="f">
+
+        <div data-role="header" data-theme="f">
+            <h1>Honey & Darling</h1>
+        </div>
+
+        <div data-role="content">
+
+            <img src="http://s3-ap-northeast-1.amazonaws.com/topicks/article_thumb/27746_original.jpg" alt="" width="100%">
+
+            <ul data-role="listview" data-theme="c" data-dividertheme="f" class="mt">
+                <li data-role="list-divider"></li>
+                <li><a href="#calnedar" data-rel="dialog">Calendar</a></li>
+                <li><a href="#pic">Album</a></li>
+                <li><a href="#date_area">Area</a></li>
+                <li><a href="#date_genre">Genre</a></li>
+            </ul>
+        </div>
+
+        <div data-role="footer" data-theme="ui-bar-f">
+            <a href="#calnedar" data-rel="dialog">Calendar</a>
+            <a href="#pic" class="ui-btn ui-btn-a">Album</a>
+            <a href="#date_area" class="ui-btn ui-btn-a">Area</a>
+            <a href="#date_genre" class="ui-btn ui-btn-a">Genre</a>
+            <small>&copy; 2016 Sample Company.</small><br>
+        </div>
+
+    </div>
+
+    <!--▼▼▼会社概要▼▼▼-->
+    <div data-role="page" id="pic" data-theme="f" data-add-back-btn="true" data-back-btn-text="戻る">
+        <div data-role="header" data-theme="f">
+            <h1>Calendar</h1>
+        </div>
+
+        <div data-role="content">
+
+        </div>
+
+        <div data-role="footer" data-theme="f">
+            <small>&copy; 2016 Sample Company.</small><br>
+        </div>
+
+    </div>
+
+    <!--▼▼デート先提案(エリア)▼▼▼-->
+    <div data-role="page" id="date_area" data-theme="f" data-add-back-btn="true" data-back-btn-text="戻る">
+
+        <div data-role="header" data-theme="f">
+            <h1>Date Area</h1>
+        </div>
+
+        <div data-role="content">
+
+            <ul data-role="listview" data-theme="c">
+
+                <li>
+                    <img src="../images/sample1.jpg" alt="">
+                    <h3>横浜</h3>
+                    <p>横浜</p>
+                </li>
+
+                <li>
+                    <img src="../images/sample1.jpg" alt="">
+                    <h3>日本橋</h3>
+                    <p></p>
+                </li>
+
+                <li>
+                    <img src="../images/sample1.jpg" alt="">
+                    <h3>六本木</h3>
+                    <p>ここに簡単な説明など入れて下さい。</p>
+                </li>
+
+                <li>
+                    <img src="../images/sample1.jpg" alt="">
+                    <h3>渋川</h3>
+                    <p>ここに簡単な説明など入れて下さい。</p>
+                </li>
+
+                <li>
+                    <img src="../images/sample1.jpg" alt="">
+                    <h3>調布</h3>
+                    <p>ここに簡単な説明など入れて下さい。</p>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+    <!--▼▼デート先提案(ジャンル)▼▼▼-->
+    <div data-role="page" id="date_genre" data-theme="f" data-add-back-btn="true" data-back-btn-text="戻る">
+
+        <div data-role="header" data-theme="f">
+            <h1>Date Genre</h1>
+        </div>
+
+        <div data-role="content">
+
+            <ul data-role="listview" data-theme="c">
+
+                <li>
+                    <a href="http://www.yogaroom.jp/area/kanto/tokyo/13122/">
+                        <img src="../images/sample1.jpg" alt="">
+                        <h3>ヨガ</h3>
+                        <p>YogaRoom</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="http://www.yamaquest.com/list_p_pa/tokyo_all_1.html">
+                        <img src="../images/sample1.jpg" alt="">
+                        <h3>登山</h3>
+                        <p></p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://sp.jorudan.co.jp/leaf/tokyo.html">
+                        <img src="../images/sample1.jpg" alt="">
+                        <h3>紅葉</h3>
+                        <p>秋に良い</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="http://sotoasobi.net/activity/trekking/3">
+                        <img src="../images/sample1.jpg" alt="">
+                        <h3>トレッキング</h3>
+                        <p></p>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div data-role="footer" data-theme="f">
+            <small>&copy; 2016 Sample Company.</small><br>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
